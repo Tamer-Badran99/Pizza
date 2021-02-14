@@ -1,0 +1,893 @@
+
+body {perspective:600px}
+
+.clear {clear:both}
+
+
+/* Start UpperBar */
+
+.upper-bar
+{
+    background-color:#e7451a;
+    color:#e6cfca;
+    padding:21px 0;
+    border-bottom:1px solid #fff; 
+}
+
+.upper-bar .social-media ul {margin-bottom:0}
+
+@media (max-width:575.98px)
+{
+    .upper-bar .social-media ul
+    {
+        margin-bottom:10px; 
+    }
+}
+
+.upper-bar .social-media ul li
+{
+    display:inline-block;
+    margin-right:25px; 
+}
+
+@media (max-width:767.98px)
+{
+    .upper-bar .social-media ul li
+    {
+       margin-right:18px;   
+    }
+}
+
+.upper-bar .info {display:inline-block}
+
+.upper-bar a, .upper-bar .info
+{
+   color:#e6cfca;
+   cursor:pointer;
+   transition:all 0.5s ease-in-out;    
+}
+
+.upper-bar a:hover, .upper-bar .info:hover {color:#fff}
+
+.upper-bar .adress a {text-decoration:none}
+
+.upper-bar .adress a:after
+{
+    content:'|';
+    margin:0 6px;
+    color:#555; 
+}
+
+/* End UpperBar */
+
+/* Start Navbar */
+
+.navbar
+{
+    background-color:#393848;
+    color:#e6cfca !important;
+    padding-top:11px;
+    padding-bottom:11px;
+    border-bottom:5px solid #1C1B29; 
+    position:relative;
+}
+
+.navbar .navbar-brand
+{
+    position:absolute;
+    top:-50px;
+    left:42%;
+    border-radius:50%;
+    background-color:#393848;
+    z-index:2 
+}
+
+@media (min-width:1200px)
+{
+    .navbar .navbar-brand {left:43.3%}
+}
+
+@media (max-width:991.98px)
+{
+   .navbar .navbar-brand
+    {
+      position:static;
+      top:0;
+      border-radius:0;
+    }
+}
+
+@media (max-width:575.98px)
+{
+  .navbar .navbar-brand {width:100%}  
+  .navbar .navbar-brand img {display:block;margin:auto}
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {padding-left:0;padding-right:20px;font-size:18px}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color:#e6cfca;
+    transition:all 0.5s ease-in-out; 
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus
+{
+    color:#e7451a; 
+}
+
+.navbar-light .navbar-nav .active>.nav-link {color:#e7451a}
+
+.navbar .dropdown-menu
+{
+    background-color:#393848;
+    padding:20px;
+    min-width:230px; 
+}
+
+ .navbar .dropdown-menu .dropdown-item
+{
+  color:#e6cfca;
+  border-bottom:1px solid #e6cfca;
+  padding:10px 0;     
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {color:#e7451a;background-color:transparent}
+
+.navbar .dropdown-menu .dropdown-item:last-child {border-bottom:none}
+
+.navbar-light .navbar-toggler {background-color:#fff}
+
+/* End Navbar */
+
+/* Start Carousel */
+
+.carousel img {width:100%}
+
+.carousel .carousel-item .carousel-caption img
+{
+    display:block;
+    margin:auto;
+    margin-bottom:22px; 
+}
+
+@media (min-width:1200px)
+{
+.carousel .carousel-item .carousel-caption {bottom:120px}
+}
+
+.carousel .carousel-item .carousel-caption .one1 {width:300px}
+
+.carousel .carousel-item .carousel-caption .two2 {width:125px}
+
+.carousel .carousel-item .carousel-caption .three3 {width:343px}
+
+.carousel .carousel-item .carousel-caption .four4 {width:166px}
+
+.carousel .carousel-item .carousel-caption .five5 {width:380px}
+
+
+/* End Carousel */
+
+/* Start Image Section */
+
+.images {padding:70px 0}
+
+.images div img {width:100%}
+
+.images .image-line {margin-top:23px}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .images .image-line {margin-top:18.05px}
+}
+
+@media (max-width:767.98px)
+{
+  .images .image-line {margin-top:18px}     
+    
+  .images .image-double {margin-top:18px}
+}
+
+/* End Image Section */
+
+/* Start Section Food */
+
+
+@media (max-width:575.98px)
+{ 
+.food-section1
+{
+    position:relative;
+    padding-top:30px; 
+    padding-bottom:45px; 
+}
+
+.food-section1 .top
+{
+    display:block;
+    width:40px;
+    border:1px solid #000; 
+    position:absolute;
+    bottom:0;
+    right:8px;
+    border-radius:3px;
+    cursor:pointer;
+    transition:all 0.4s linear; 
+}
+
+.food-section1 .top p
+{
+    margin:0 
+}
+
+.food-section1 .top:hover
+{
+    color:#fff;
+    background-color:#e7451a; 
+}
+
+}
+    
+.food-section1 ul
+{
+  text-align:center;
+  font-family: 'Leckerli One', cursive;
+  font-size:25px;
+  margin-bottom:40px;     
+}
+
+
+.food-section1 ul li
+{
+    display:inline-block;     
+    margin:0 22px;
+}
+
+.food-section1 ul li
+{
+  border-bottom:2px solid #ccc;
+  cursor:pointer;
+    transition:all 0.4s linear; 
+}
+
+.food-section1 ul li.active, .food-section1 ul li:hover
+{
+    border-bottom:2px solid #f00
+}
+
+@media (max-width:575.98px)
+{ 
+  .food-section1 ul li
+    {
+        display:block;
+        width:160px;
+        margin:10px auto
+    }  
+        
+}
+
+.food-section1 .item
+{
+    padding:30px 0;
+    margin-bottom:10px;
+    border:3.5px solid transparent;
+    position:relative;
+    transition:all 0.5s linear 
+}
+
+.food-section1 .item:hover {border:3.5px solid #ddd}
+
+.food-section1 .item .span-position
+{
+    position:absolute;
+    top:30px;
+    right:42px;
+    color:#fff;
+    background-color:#e7451a;
+    padding:12px 5px; 
+    border-radius:50%; 
+}
+
+@media (min-width:408px) and (max-width:767.98px)
+{
+  .food-section1 .item .span-position {display:none}
+}
+
+.food-section1 .item img {cursor:pointer}
+
+.food-section1 .item h4
+{
+    margin-top:10px;
+    cursor:pointer;
+    transition:all 0.5s ease-in-out;
+}
+
+.food-section1 .item h4:hover {color:#e7451a}
+
+.food-section1 .item p {font-size:14px}
+
+.food-section1 .item .span-price {display:block;margin-top:-5px;margin-bottom:22px;font-size:18px}
+
+.food-section1 .item .span-price .span-in
+{
+    margin-right:10px;
+    font-size:15px;
+    color:#aaa;
+    text-decoration-line:line-through
+}
+
+.food-section1 .item a
+{
+    color:#fff;
+    background-color:#e7451a;
+    padding:10px 25px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+.food-section1 .item a i {margin-right:10px}
+
+/* End Section Food  */
+
+/* Start Place Image */
+
+.place-image {padding-top:50px;padding-bottom:30px}
+
+.place-image .row {margin:0}
+
+.place-image .col-6, .place-image .col-md-3, .place-image .col-md-6, .place-image .col-12
+{
+    padding:0; 
+}
+
+.place-image div {overflow:hidden}
+
+.place-image div img {width:100%;transition:all 0.3s ease-in-out}
+
+.place-image div img:hover {transform:scale(1.1,1.1)}
+
+/* End Place Image */
+
+
+/* Start Section Food Drinks */
+
+.food-section2
+{
+    padding:50px 0 60px; 
+}
+
+@media (max-width:575.98px)
+{ 
+.food-section2
+{
+    position:relative;
+    padding-bottom:65px; 
+}
+
+.food-section2 .top
+{
+    display:block;
+    width:40px;
+    border:1px solid #000; 
+    position:absolute;
+    bottom:15px;
+    right:8px;
+    border-radius:3px;
+    cursor:pointer;
+    transition:all 0.4s linear; 
+}
+
+.food-section2 .top p
+{
+    margin:0 
+}
+
+.food-section2 .top:hover
+{
+    color:#fff;
+    background-color:#e7451a; 
+}
+
+}
+
+.food-section2 ul
+{
+  text-align:center;
+  font-family: 'Leckerli One', cursive;
+  font-size:25px;
+  margin-bottom:20px;     
+}
+
+
+.food-section2 ul li
+{
+    display:inline-block;     
+    margin:0 22px;
+}
+
+.food-section2 ul li
+{
+  border-bottom:2px solid #ccc;
+  cursor:pointer;
+    transition:all 0.4s linear; 
+}
+
+.food-section2 ul li.active, .food-section2 ul li:hover
+{
+    border-bottom:2px solid #f00
+}
+
+@media (max-width:575.98px)
+{ 
+  .food-section2 ul li
+    {
+        display:block;
+        width:160px;
+        margin:10px auto
+    }  
+        
+}
+
+.food-section2 .item
+{
+    padding:30px 0;
+    margin-bottom:10px;
+    border:3.5px solid transparent;
+    position:relative;
+    transition:all 0.5s linear 
+}
+
+.food-section2 .item:hover {border:3.5px solid #ddd}
+
+.food-section2 .item .span-position
+{
+    position:absolute;
+    top:30px;
+    right:42px;
+    color:#fff;
+    background-color:#e7451a;
+    padding:12px 5px; 
+    border-radius:50%; 
+}
+
+@media (min-width:408px) and (max-width:767.98px)
+{
+  .food-section2 .item .span-position {display:none}
+}
+
+.food-section2 .item img {cursor:pointer}
+
+.food-section2 .item h4
+{
+    margin-top:10px;
+    cursor:pointer;
+    transition:all 0.5s ease-in-out;
+}
+
+.food-section2 .item h4:hover {color:#e7451a}
+
+.food-section2 .item p {font-size:14px}
+
+.food-section2 .item .span-price {display:block;margin-top:-5px;margin-bottom:22px;font-size:18px}
+
+.food-section2 .item .span-price .span-in
+{
+    margin-right:10px;
+    font-size:15px;
+    color:#aaa;
+    text-decoration-line:line-through
+}
+
+.food-section2 .item a
+{
+    color:#fff;
+    background-color:#e7451a;
+    padding:10px 25px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+.food-section2 .item a i {margin-right:10px}
+
+/* End Section Food Drinks */
+
+
+/* Start Middle Image */
+
+.middle-image
+{
+    background:url('../img/Categories_Frozen_pizza-pasta-garlic-bread-compressor.jpg') no-repeat;
+    background-size:cover;
+    min-height:300px; 
+}
+
+.middle-image .inside
+{
+    width:100%;
+    min-height:300px;
+    background-color:rgba(2,2,2,0.5)     
+}
+
+/* End Middle Image  */
+
+
+/* Start Pasta  */
+
+.section-eat {padding:60px 0 40px}
+
+.section-eat h2 {font-family: 'Leckerli One', cursive}
+
+.section-eat .item
+{  
+    padding:15px 0 20px;
+    margin-bottom:10px;
+    border:3.5px solid transparent;
+    position:relative;
+    transition:all 0.5s linear 
+}
+
+@media (min-width:1200px)
+{
+    .section-eat .item {padding:12px 0 15px}
+}
+
+.section-eat .item:hover {border:3.5px solid #ddd}
+
+.section-eat .item .span-position
+{
+    position:absolute;
+    top:60px;
+    left:210px;
+    color:#fff;
+    background-color:#e7451a;
+    padding:12px 5px; 
+    border-radius:50%;
+    z-index:2 
+}
+
+@media (min-width:408px) and (max-width:767.98px)
+{
+  .section-eat .item .span-position {display:none}
+}
+
+@media (min-width:992px) and (max-width:1199.98px)
+{
+  .section-eat .item .span-position {left:290px}   
+}
+
+.section-eat .item img {cursor:pointer}
+
+.section-eat .item h4
+{
+    margin-top:20px;
+    margin-bottom:20px; 
+    cursor:pointer;
+    transition:all 0.5s ease-in-out;
+}
+
+@media (max-width:1199.98px)
+{
+    .section-eat .item h4 {margin-top:-20px}
+}
+
+.section-eat .item h4:hover {color:#e7451a}
+
+.section-eat .item p {font-size:14px;line-height:1.8}
+
+.section-eat .item .span-price {display:block;margin-top:20px;margin-bottom:30px;font-size:18px}
+
+.section-eat .item .span-price .span-in
+{
+    margin-right:10px;
+    font-size:15px;
+    color:#aaa;
+    text-decoration-line:line-through
+}
+
+.section-eat .item a
+{
+    color:#fff;
+    background-color:#e7451a;
+    padding:10px 25px;
+    border-radius:50px;
+    text-decoration:none; 
+}
+
+.section-eat .item a i {margin-right:10px}
+
+/* End Pasta  */
+
+
+/* Start Team Members */
+
+.team-members{padding:50px 0 40px}
+
+.team-members .all {margin-bottom:30px}
+
+.team-members h3 {margin-bottom:-10px;font-family: 'Leckerli One', cursive}
+
+.team-members p {margin:15px 0 20px;color:#848484}
+
+.team-members .all .info
+{
+    position:relative;
+    width:100%;
+    min-height:495px;
+    overflow:hidden
+}
+
+.team-members .all .info .one-three
+{
+    position:absolute;
+    top:0;
+    left:0;
+    padding-top:25px;
+    width:100%;
+    height:495px; 
+    z-index:3 
+}
+
+.team-members .all .info .two-three
+{
+    width:100%;
+    height:355px; 
+    position:absolute;
+    top:140px;
+    left:0;
+    border:10px solid #e7451a; 
+    z-index:2;
+    transition:all 0.4s linear 
+}
+
+.team-members .all:hover .two-three {top:495px}
+
+.team-members .all .info .three-three
+{
+    width:100%;
+    height:100%;
+    background-color:rgba(9,9,9,0.2); 
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:4;
+    opacity:0;
+    transition:all 0.2s linear
+}
+
+.team-members .all .info .three-three a i
+{
+  width:40px;
+  height:40px;
+  background-color:#fff;
+  line-height:40px;
+  border-radius:50%;
+  margin-top:419px;
+  transition:all 0.6s ease; 
+}
+
+.team-members .all .info .three-three a:nth-of-type(1) i {color:#3b5998}
+
+.team-members .all .info .three-three a:nth-of-type(2) i {color:#1da1f2}
+
+.team-members .all .info .three-three a:nth-of-type(3) i {color:#dd4b39}
+
+.team-members .all .info .three-three a i:hover {background-color:#e7451a;color:#fff}
+
+.team-members .all:hover .three-three {opacity:1}
+
+.team-members .all .after-info h5 {margin-top:15px}
+
+.team-members .all .after-info p {font-size:15px}
+
+@media (max-width:575.98px)
+{
+    .team-members .all .after-info p {margin-top:-4px}
+}
+
+/* End Team Members */
+
+
+/* Start Footer */
+
+.footer
+{
+    padding:70px 0 30px;
+    background-color:#333;
+    color:#aaa;
+    line-height:1.4;
+    overflow:hidden;
+}
+
+.footer .info {margin-bottom:30px}
+
+.footer .info .image-pizza {display:block;margin:auto;margin-bottom:20px}
+
+.footer .info ul.one {margin-top:30px}
+
+.footer .info ul.one li i {margin:20px 10px 10px 0;transition:all 0.5s ease-in-out}
+
+.footer .info ul.one li i:hover {color:#e7451a}
+
+.footer .info ul.two {margin-top:35px}
+
+.footer .info ul.two li
+{
+    float:left;
+    border-radius:50%;
+    text-align:center;
+    margin-right:5px; 
+}
+
+.footer .info ul.two li i
+{
+  width:40px;
+  height:40px;
+  line-height:40px; 
+  background-color:#555;
+  border-radius:50%;
+  color:#999;     
+  cursor:pointer;
+  transition:all 0.5s ease-in-out 
+}
+
+.footer .info ul.two li i:hover
+{
+    background-color:#e7451a;
+    color:#fff 
+}
+
+.footer .info h4
+{
+    margin-top:10px;
+    margin-bottom:40px;
+    color:#fff; 
+}
+
+.footer .info .media {margin:12px 0;}
+
+.footer .info .media img {border-radius:4px}
+
+.footer .info .media h5 {transition:all 0.5s ease-in-out}
+
+.footer .info .media h5:hover {color:#e7451a;cursor:pointer}
+
+.footer .info ul.three li{margin-bottom:17px}
+
+.footer .info ul.three li span {float:right;color:#fff}
+
+.footer .info .image img
+{
+    float:left;
+    margin:0 5px 5px 0;
+    border-radius:4px; 
+}
+
+.footer .info .image .img-thumbnail
+{
+    background:rgba(0,0,0,0.2);
+    border:1px solid #fff;
+    margin-bottom:5px; 
+}
+
+.footer hr {background-color:#aaa;display:block}
+
+.footer .last-p {margin-bottom:0;color:#ccc}
+
+/* Start Scroll To Top  */
+
+#scroll-top
+{  
+   width:40px;
+   height:40px;
+   margin:-10px 13px -5px 0;
+   float:right;
+   color:#DDD;
+   background-color:#272727;
+   text-align:center;
+   cursor:pointer;
+}
+
+#scroll-top:hover
+{
+    background-color:#444; 
+}
+
+/* End Scroll To Top  */
+
+/* End Footer  */
+
+
+/* Start Loading */
+
+.loading-overlay
+{
+  background-color:#222;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:99999;     
+}
+
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 250px auto;    
+}
+
+@media (max-width:575.98px)
+{
+    .sk-cube-grid {margin:150px auto}
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: #fff;
+  float: left;
+  -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+          animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+}
+.sk-cube-grid .sk-cube1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube2 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }
+.sk-cube-grid .sk-cube4 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube5 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+.sk-cube-grid .sk-cube6 {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s; }
+.sk-cube-grid .sk-cube7 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s; }
+.sk-cube-grid .sk-cube9 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1); 
+  }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    -webkit-transform: scale3D(1, 1, 1);
+            transform: scale3D(1, 1, 1);
+  } 35% {
+    -webkit-transform: scale3D(0, 0, 1);
+            transform: scale3D(0, 0, 1);
+  } 
+}
+
+
+/* ****************** */
+
+.hidden
+{
+    display:none;
+}
+
+.border-active
+{
+    border-bottom:2px solid #f00 !important
+}

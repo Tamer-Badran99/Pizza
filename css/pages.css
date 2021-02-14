@@ -1,0 +1,236 @@
+
+.breadcrumb-holder
+{
+    background-color:#edf0f5; 
+}
+
+.breadcrumb
+{
+    margin:0;
+    padding:50px 0;
+    background-color:transparent;
+    font-size:20px; 
+}
+
+
+/* Start About */
+
+.foodlife {padding:75px 0 60px}
+
+.foodlife h4 {font-family: 'Leckerli One', cursive}
+
+.foodlife p
+{
+    font-size:15px;
+    color:#666;
+    margin-bottom:55px; 
+}
+
+.foodlife i {color:#aaa}
+
+@media (min-width:768px) and (max-width:991.98px)
+{
+  .foodlife i {font-size:40px;margin-top:8px}
+}
+
+.our-history
+{
+     background:url('../img/gbanner3-compressor.jpg') no-repeat fixed;
+     background-size:cover;
+     min-height:400px; 
+}
+
+.our-history .cover
+{
+    width:100%;
+    min-height:400px;
+    background-color:rgba(2,2,2,.75);
+    color:#fff;
+    padding:50px 0; 
+}
+
+.our-history .info {margin-bottom:30px}
+
+.our-history hr, .client-says hr
+{
+    background-color:#ddd;
+    display:block;
+    width:60%;
+    margin:auto;    
+}
+
+@media (max-width:575.95px)
+{
+    .our-history hr, .client-says hr {width:100%}
+}
+
+.our-history h2, .client-says .h4 {font-family: 'Leckerli One', cursive}
+
+.our-history p, .client-says p {width:60%;margin:30px auto 50px}
+
+@media (max-width:575.95px)
+{
+    .our-history p, .client-says p {width:100%}
+}
+
+.our-history .h1 {font-size:60px}
+
+.our-history span {font-size:18px}
+
+.client-says {padding:50px 0}
+
+.client-says p {color:#888;margin:30px auto 60px}
+
+.client-says .bd-example .carousel-inner img {width:170px;height:170px}
+
+.client-says .bd-example .carousel-inner h6 {margin-bottom:-15px}
+
+.client-says .bd-example .carousel-inner p {width:30%;color:#555}
+
+@media (max-width:767.98px)
+{
+    .client-says .bd-example .carousel-inner p {width:70%}
+}
+
+.client-says .bd-example a span {background-color:#000}
+
+
+
+/* Start FAQ */
+
+.faq-questions {padding:55px 0}
+
+.faq-questions .card {margin-bottom:15px}
+
+.faq-questions .card-header a {font-size:16px;display:block;color:#000}
+
+.faq-questions .card-header a:after
+{
+    font-family: 'FontAwesome';
+    content:"\f054";
+    float:right;
+    color:#444;  
+}
+
+.faq-questions .card-header a.collapsed:after
+{
+    font-family: 'FontAwesome';
+    content:"\f078";
+    float:right;
+    color:#999;
+}
+
+.faq-send-questions {padding:10px 0 60px}
+
+.faq-send-questions hr
+{
+    background-color:#ddd;
+    display:block;
+    width:68%;
+    margin:auto
+}
+
+.faq-send-questions p
+{
+    font-size:15px;
+    width:68%;
+    margin:30px auto;
+    color:#777 
+}
+
+.faq-send-questions form input
+{
+    padding:25px .75rem; 
+    margin-bottom:12px;
+    background-color:#F4F4F4 
+}
+
+.faq-send-questions form textarea {height:200px;margin-bottom:40px;background-color:#F4F4F4}
+
+.faq-send-questions form button
+{
+    border:none; 
+    color:#fff;
+    padding:10px 25px; 
+    border-radius:50px;
+    font-weight:bold;
+}
+
+
+/* Start Testimonial  */
+
+.testimonial {padding:60px 0}
+
+.testimonial .info
+{
+    padding:10px;
+    padding-left:20px; 
+    background-color:#F4F4F4;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+@media (max-width:767.98px)
+{
+  .testimonial .info {margin-bottom:25px}
+}
+
+.testimonial .info img {margin-top:5px}
+
+.testimonial .info h4 {margin-top:13px}
+
+.testimonial .info span {color:#aaa;font-weight:bold}
+
+.testimonial .info p {margin-top:10px;color:#777;line-height:1.7}
+
+
+/*  Start Contact Us  */
+
+#place {height:550px;padding:50px 0 0}
+
+#place #map {height:100%}
+
+.contact-us {padding:60px 0 50px}
+
+.contact-us h4 {margin-bottom:23px;font-weight:bold}
+
+.contact-us form input
+{
+    padding:25px .75rem; 
+    margin-bottom:15px;
+    background-color:transparent
+}
+
+.contact-us form textarea {height:140px;margin-bottom:40px;background-color:transparent}
+
+.contact-us form button
+{
+    border:none; 
+    color:#fff;
+    padding:10px 25px; 
+    border-radius:50px;
+    font-weight:bold;
+    margin-bottom:30px; 
+}
+
+.contact-us .info {margin-bottom:26px}
+
+.contact-us .info p {margin-top:21px;font-weight:bold;color:#666}
+
+@media (max-width:575.98px)
+{
+    .contact-us .info p {margin-top:16px}
+}
+
+.contact-us i
+{
+    width:64px;
+    height:64px;
+    line-height:64px;
+    text-align:center;
+    color:#e7451a;
+    border:2px solid #e7451a;
+    border-radius:50%; 
+}
+
+
